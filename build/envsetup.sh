@@ -29,6 +29,13 @@ function build_enable_beta() {
     export SHIFT_BUILD_IS_BETA=true
 }
 
+# Check if PARTNER_GMS exists
+_PARTNER_GMS_EXISTING=$([ -d "vendor/partner_gms" ] && echo true || echo false)
+
 # set GMS property if not specified
-: ${SHIFT_BUILD_WITH_GMS:=true}
+: ${BUILD_GMS:=$_PARTNER_GMS_EXISTING}
+: ${SHIFT_BUILD_WITH_GMS:=$_PARTNER_GMS_EXISTING}
+: ${WITH_GMS:=$_PARTNER_GMS_EXISTING}
+export BUILD_GMS
 export SHIFT_BUILD_WITH_GMS
+export WITH_GMS
