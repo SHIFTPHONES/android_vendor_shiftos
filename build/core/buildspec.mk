@@ -2,9 +2,6 @@
 
 BUILD_NUMBER := $(shell date +%Y%m%d)
 
-# Save number of CPU cores
-BUILD_HOST_MAX_CPU_COUNT := $(shell nproc --all)
-
 # Specify build user and host
 BUILD_USERNAME := shiftos
 BUILD_HOSTNAME := shiftphones.com
