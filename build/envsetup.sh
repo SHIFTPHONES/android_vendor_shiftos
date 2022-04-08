@@ -15,11 +15,13 @@ function build_gms_enable() {
     export BUILD_GMS=true
     export SHIFT_BUILD_WITH_GMS=true
     export WITH_GMS=true
+    export WITH_GMS_MAINLINE=true
 }
 function build_gms_disable() {
     export BUILD_GMS=false
     export SHIFT_BUILD_WITH_GMS=false
     export WITH_GMS=false
+    export WITH_GMS_MAINLINE=false
 }
 
 function build_disable_beta() {
@@ -31,11 +33,14 @@ function build_enable_beta() {
 
 # Check if PARTNER_GMS exists
 _PARTNER_GMS_EXISTING=$([ -d "vendor/partner_gms" ] && echo true || echo false)
+_PARTNER_MODULES_EXISTING=$([ -d "vendor/partner_modules" ] && echo true || echo false)
 
 # set GMS property if not specified
 : ${BUILD_GMS:=$_PARTNER_GMS_EXISTING}
 : ${SHIFT_BUILD_WITH_GMS:=$_PARTNER_GMS_EXISTING}
 : ${WITH_GMS:=$_PARTNER_GMS_EXISTING}
+: ${WITH_GMS_MAINLINE:=$_PARTNER_MODULES_EXISTING}
 export BUILD_GMS
 export SHIFT_BUILD_WITH_GMS
 export WITH_GMS
+export WITH_GMS_MAINLINE
