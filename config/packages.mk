@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
     SHIFTSettingsProvider \
 
 # Support
-PRODUCT_PACKAGES += SHIFTSupport
+PRODUCT_PACKAGES += SHIFT-Support
 
 # Themes - Fonts
 $(call inherit-product-if-exists, packages/overlays/SHIFT/fonts/fonts.mk)
