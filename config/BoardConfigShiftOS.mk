@@ -24,7 +24,7 @@ ifeq ($(HOST_OS),linux)
 endif
 
 #
-# DEXOPT
+#
 #####
 
 #####
@@ -35,5 +35,14 @@ endif
 TARGET_FACTORY_BUILD := false
 
 #
-# Factory
+#
 #####
+
+####
+# Sepolicy
+#
+
+include device/shift/sepolicy/common/sepolicy.mk
+
+#
+####
