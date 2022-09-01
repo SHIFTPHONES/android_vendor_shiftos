@@ -1,0 +1,6 @@
+prebuilt_etc {
+    name: "shiftos_hiddenapi_package_allowlist",
+    sub_dir: "sysconfig",
+    src: "shiftos-hiddenapi-package-allowlist.xml",
+    filename_from_src: true,
+}

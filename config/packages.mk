@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
 # Support
 PRODUCT_PACKAGES += SHIFT-Support
 
+# SysConfig
+PRODUCT_PACKAGES += \
+    shiftos_hiddenapi_package_allowlist \
+
 # Themes - Fonts
 $(call inherit-product-if-exists, packages/overlays/SHIFT/fonts/fonts.mk)
 
