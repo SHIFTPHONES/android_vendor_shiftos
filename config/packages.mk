@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
 # Themes - Fonts
 $(call inherit-product-if-exists, packages/overlays/SHIFT/fonts/fonts.mk)
 
+# Themes App
+PRODUCT_PACKAGES += \
+    SHIFT-ThemesStub \
+
 ifeq ($(WITH_GMS),true)
 
   # ShiftOS-G specific packages
