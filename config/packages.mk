@@ -1,21 +1,21 @@
 # Camera (Shutter)
-PRODUCT_PACKAGES += SHIFTShutterStub
+PRODUCT_PACKAGES += SHIFT-ShutterStub
 
 # F-Droid - repos
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
 # Launcher
-PRODUCT_PACKAGES += SHIFTHome
+PRODUCT_PACKAGES += SHIFT-Home
 
 # OTA
 PRODUCT_PACKAGES += SHIFT-OTA
 
 # Settings
 PRODUCT_PACKAGES += \
-    SHIFTColorCalibration \
-    SHIFTPartnerCustomization \
-    SHIFTParts \
-    SHIFTSettingsProvider \
+    SHIFT-ColorCalibration \
+    SHIFT-PartnerCustomization \
+    SHIFT-Parts \
+    SHIFT-SettingsProvider \
 
 # Support
 PRODUCT_PACKAGES += SHIFT-Support
