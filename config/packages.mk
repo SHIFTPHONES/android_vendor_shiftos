@@ -17,6 +17,9 @@ PRODUCT_PACKAGES += \
     SHIFT-Parts \
     SHIFT-SettingsProvider \
 
+# SetupWizard
+PRODUCT_PACKAGES += SHIFT-SetupWizard
+
 # Support
 PRODUCT_PACKAGES += SHIFT-Support
 
