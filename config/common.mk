@@ -9,5 +9,8 @@ include vendor/shiftos/config/bootanimation.mk
 # Packages
 include vendor/shiftos/config/packages.mk
 
+# ShiftOS permissions
+include vendor/shiftos/config/permissions.mk
+
 # Private bits if existing
 -include vendor/shiftos/private/common.mk
