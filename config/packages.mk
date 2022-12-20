@@ -1,7 +1,7 @@
 # Camera
-PRODUCT_PACKAGES += \
-    SHIFT-ShutterStub \
-    SnapdragonCamera \
+#PRODUCT_PACKAGES += \
+#    SHIFT-ShutterStub \
+#    SnapdragonCamera \
 
 # F-Droid - repos
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
