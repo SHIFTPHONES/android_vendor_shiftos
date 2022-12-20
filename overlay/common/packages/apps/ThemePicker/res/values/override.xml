@@ -17,4 +17,5 @@
 -->
 <resources>
     <string name="themes_stub_package" translatable="false">eco.shift.customization</string>
+    <string name="clocks_stub_package" translatable="false">eco.shift.customization</string>
 </resources>
