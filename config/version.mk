@@ -8,7 +8,7 @@ endif
 
 ####################################################################################
 
-SHIFT_SOS_VERSION_MAJOR := 4
+SHIFT_SOS_VERSION_MAJOR := 5
 SHIFT_SOS_VERSION_MINOR := 0
 SHIFT_SOS_VERSION_EXTRA :=
 
