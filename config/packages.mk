@@ -3,6 +3,11 @@
 #    SHIFT-ShutterStub \
 #    SnapdragonCamera \
 
+# Charger
+PRODUCT_PACKAGES += \
+    shiftos_charger_animation \
+    shiftos_charger_animation_vendor \
+
 # F-Droid - repos
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
