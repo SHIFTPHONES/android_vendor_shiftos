@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(WITH_GMS),true)
 
   # ShiftOS-G specific packages
+  PRODUCT_PACKAGES += ThemePickerGms
 
 else
 
