@@ -12,7 +12,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
 # Launcher
-PRODUCT_PACKAGES += SHIFT-Home
+PRODUCT_PACKAGES += \
+    SHIFT-HomeOverlay \
+    SHIFT-HomeQuickStep \
 
 # OTA
 PRODUCT_PACKAGES += SHIFT-OTA
