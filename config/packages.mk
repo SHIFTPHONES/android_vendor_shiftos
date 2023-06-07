@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
 # OTA
 PRODUCT_PACKAGES += SHIFT-OTA
 
+# OTA - Host Tools
+PRODUCT_HOST_PACKAGES += \
+    lz4diff \
+
 # Settings
 PRODUCT_PACKAGES += \
     SHIFT-ColorCalibration \
