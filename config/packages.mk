@@ -8,8 +8,8 @@ PRODUCT_PACKAGES += \
     shiftos_charger_animation \
     shiftos_charger_animation_vendor \
 
-# F-Droid - repos
-PRODUCT_PACKAGES += additional_repos.xml-fdroid
+# F-Droid Basic
+PRODUCT_PACKAGES += F-Droid_Basic
 
 # Launcher
 PRODUCT_PACKAGES += \
@@ -58,12 +58,5 @@ else
 
   # Browser
   PRODUCT_PACKAGES += FirefoxKlar
-
-  # F-Droid - client (ShiftOS-L only until target sdk gets bumped to at least platform sdk)
-  PRODUCT_PACKAGES += F-Droid
-
-  # F-Droid - system extensions for ShiftOS-L
-  PRODUCT_PACKAGES += F-DroidPrivilegedExtension
-  PRODUCT_PACKAGES += permissions_org.fdroid.fdroid.privileged.xml
 
 endif
