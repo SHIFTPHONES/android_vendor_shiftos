@@ -1,9 +1,0 @@
-// F-Droid
-// ============================================================
-
-prebuilt_etc {
-    name: "additional_repos.xml-fdroid",
-    filename: "additional_repos.xml",
-    sub_dir: "org.fdroid.fdroid",
-    src: "common/etc/org.fdroid.fdroid/additional_repos.xml",
-}
