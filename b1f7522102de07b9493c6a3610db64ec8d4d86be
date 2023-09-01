@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "204487c0_48b1d8aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-09-01T05:30:18Z",
+      "side": 1,
+      "message": "Need to check, if GTS is passing with this now.\nThough functionality-wise it is fine.",
+      "revId": "b1f7522102de07b9493c6a3610db64ec8d4d86be",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
