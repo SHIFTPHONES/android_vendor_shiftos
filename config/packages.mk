@@ -8,6 +8,10 @@ PRODUCT_PACKAGES += \
     shiftos_charger_animation \
     shiftos_charger_animation_vendor \
 
+# eSIM
+PRODUCT_PACKAGES += \
+    SHIFT-LPA \
+
 # F-Droid - repos
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
