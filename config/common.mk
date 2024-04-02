@@ -16,7 +16,7 @@ SHIFT_BUILD_WITH_GMS ?= true
 #include vendor/shiftos/config/packages.mk
 
 # ShiftOS permissions
-#include vendor/shiftos/config/permissions.mk
+include vendor/shiftos/config/permissions.mk
 
 # Private bits if existing
 -include vendor/shiftos/private/common.mk
