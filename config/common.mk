@@ -13,7 +13,7 @@ SHIFT_BUILD_WITH_GMS ?= true
 include vendor/shiftos/config/bootanimation.mk
 
 # Packages
-#include vendor/shiftos/config/packages.mk
+include vendor/shiftos/config/packages.mk
 
 # ShiftOS permissions
 include vendor/shiftos/config/permissions.mk
