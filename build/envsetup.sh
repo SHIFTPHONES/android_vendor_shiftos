@@ -2,6 +2,9 @@ function __print_shift_functions_help() {
 cat <<EOF
 
 Additional ShiftOS functions:
+- aospremote: Add git remote for matching AOSP repository.
+- cloremote:  Add git remote for matching CodeLinaro repository.
+
 - build_gms_enable:  Enables building with Google APPS (GMS)
 - build_gms_disable: Disables building with Google APPS (GMS)
 
@@ -29,6 +32,66 @@ function build_disable_beta() {
 }
 function build_enable_beta() {
     export SHIFT_BUILD_IS_BETA=true
+}
+
+function aospremote()
+{
+    if ! git rev-parse --git-dir &> /dev/null
+    then
+        echo ".git directory not found. Please run this from the root directory of the Android repository you wish to set up."
+        return 1
+    fi
+    git remote rm aosp 2> /dev/null
+
+    if [ -f ".gitupstream" ]; then
+        local REMOTE=$(cat .gitupstream | cut -d ' ' -f 1)
+        git remote add aosp ${REMOTE}
+    else
+        local PROJECT=$(pwd -P | sed -e "s#$ANDROID_BUILD_TOP\/##; s#-caf.*##; s#\/default##")
+        # Google moved the repo location in Oreo
+        if [ $PROJECT = "build/make" ]
+        then
+            PROJECT="build"
+        fi
+        if (echo $PROJECT | grep -qv "^device")
+        then
+            local PFX="platform/"
+        fi
+        git remote add aosp https://android.googlesource.com/$PFX$PROJECT
+    fi
+    echo "Remote 'aosp' created"
+}
+
+function cloremote()
+{
+    if ! git rev-parse --git-dir &> /dev/null
+    then
+        echo ".git directory not found. Please run this from the root directory of the Android repository you wish to set up."
+        return 1
+    fi
+    git remote rm clo 2> /dev/null
+
+    if [ -f ".gitupstream" ]; then
+        local REMOTE=$(cat .gitupstream | cut -d ' ' -f 1)
+        git remote add clo ${REMOTE}
+    else
+        local PROJECT=$(pwd -P | sed -e "s#$ANDROID_BUILD_TOP\/##; s#-caf.*##; s#\/default##")
+        # Google moved the repo location in Oreo
+        if [ $PROJECT = "build/make" ]
+        then
+            PROJECT="build_repo"
+        fi
+        if [[ $PROJECT =~ "qcom/opensource" ]];
+        then
+            PROJECT=$(echo $PROJECT | sed -e "s#qcom\/opensource#qcom-opensource#")
+        fi
+        if (echo $PROJECT | grep -qv "^device")
+        then
+            local PFX="platform/"
+        fi
+        git remote add clo https://git.codelinaro.org/clo/la/$PFX$PROJECT
+    fi
+    echo "Remote 'clo' created"
 }
 
 # Check if PARTNER_GMS exists
