@@ -5,11 +5,16 @@ Additional ShiftOS functions:
 - aospremote: Add git remote for matching AOSP repository.
 - cloremote:  Add git remote for matching CodeLinaro repository.
 
-- build_gms_enable:  Enables building with Google APPS (GMS)
-- build_gms_disable: Disables building with Google APPS (GMS)
-
+- build_gms_enable:   Enables building with Google APPS (GMS)
+- build_gms_disable:  Disables building with Google APPS (GMS)
 - build_disable_beta: Do not mark build as beta
 - build_enable_beta:  Mark build as beta
+
+- generate_changelog:              Generate a changelog comparing tags
+- generate_changelog_on_top_of:    Generate a changelog listing changes the current checkout has
+                                   additionally ("on top of") when comparing against the specified tag.
+- generate_changelog_missing_from: Generate a changelog listing changes the current checkout does not
+                                   contain when comparing against the specified tag.
 
 EOF
 }
@@ -92,6 +97,22 @@ function cloremote()
         git remote add clo https://git.codelinaro.org/clo/la/$PFX$PROJECT
     fi
     echo "Remote 'clo' created"
+}
+
+function generate_changelog()
+{
+    T=$(gettop)
+    "$T/vendor/shiftos/tools/changelog-generator/changelog-generator.sh" "$@"
+}
+
+function generate_changelog_on_top_of()
+{
+    generate_changelog "${1}" HEAD
+}
+
+function generate_changelog_missing_from()
+{
+    generate_changelog HEAD "${1}"
 }
 
 # Check if PARTNER_GMS exists
