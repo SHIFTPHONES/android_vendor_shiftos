@@ -1,3 +1,5 @@
+ifneq ($(filter qssi,$(TARGET_DEVICE)),)
+
 # ShiftOS system version
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.shift.sos.version=$(SHIFT_SOFTWARE_VERSION) \
@@ -13,3 +15,5 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
 # ShiftOS release type
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.shift.release.type=$(SHIFT_SOFTWARE_BUILD_TYPE) \
+
+endif
