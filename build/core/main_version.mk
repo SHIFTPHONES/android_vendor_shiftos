@@ -1,4 +1,4 @@
-ifneq ($(filter qssi,$(TARGET_DEVICE)),)
+ifneq ($(filter qssi,$(TARGET_PRODUCT)),)
 
 # ShiftOS system version
 ADDITIONAL_SYSTEM_PROPERTIES += \
