@@ -16,6 +16,8 @@ Additional ShiftOS functions:
 - generate_changelog_missing_from: Generate a changelog listing changes the current checkout does not
                                    contain when comparing against the specified tag.
 
+- repopick: Utility to fetch changes from Gerrit.
+
 EOF
 }
 
@@ -113,6 +115,11 @@ function generate_changelog_on_top_of()
 function generate_changelog_missing_from()
 {
     generate_changelog HEAD "${1}"
+}
+
+function repopick() {
+    T=$(gettop)
+    "$T/vendor/shiftos/tools/repopick.py" "$@"
 }
 
 # Check if PARTNER_GMS exists
