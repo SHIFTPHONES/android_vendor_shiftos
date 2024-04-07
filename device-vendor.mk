@@ -15,4 +15,17 @@ ifeq ($(SHIFT_BUILD_WITH_GMS),true)
 
     # Add Mainline packages (GPSU).
     $(call inherit-product, vendor/partner_modules/build/mainline_modules.mk)
+
+endif
+
+ifeq ($(filter qssi,$(TARGET_DEVICE)),)
+
+    PRODUCT_PROPERTY_OVERRIDES += \
+        drm.service.enabled=true
+
+    PRODUCT_PACKAGES += \
+        libwvdrmengine \
+        libwvhidl \
+        android.hardware.drm@1.3-service.widevine
+
 endif
