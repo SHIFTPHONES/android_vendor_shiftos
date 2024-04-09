@@ -117,7 +117,14 @@ function generate_changelog_missing_from()
     generate_changelog HEAD "${1}"
 }
 
-function repopick() {
+function merge_upstream()
+{
+    T=$(gettop)
+    "$T/vendor/shiftos/tools/merge_upstream.py" "$@"
+}
+
+function repopick()
+{
     T=$(gettop)
     "$T/vendor/shiftos/tools/repopick.py" "$@"
 }
