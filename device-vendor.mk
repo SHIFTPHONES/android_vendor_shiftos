@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit some common SHIFT stuff.
+$(call inherit-product, vendor/shiftos/config/common_full.mk)
+
 # GMS
 ifeq ($(SHIFT_BUILD_WITH_GMS),true)
     # Set Google client ID as required for the approval process
