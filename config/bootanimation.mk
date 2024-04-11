@@ -21,9 +21,11 @@ PRODUCT_BOOTANIMATION := $(wildcard vendor/shiftos/prebuilt/$(TARGET_SCREEN_RESO
 PRODUCT_SHUTANIMATION := $(wildcard vendor/shiftos/prebuilt/$(TARGET_SCREEN_RESOLUTION)/media/shutdownanimation.zip)
 
 ifneq ($(PRODUCT_BOOTANIMATION),)
-  TARGET_BOOTANIMATION := $(PRODUCT_BOOTANIMATION)
+    PRODUCT_COPY_FILES += \
+        $(PRODUCT_BOOTANIMATION):$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 endif
 
 ifneq ($(PRODUCT_SHUTANIMATION),)
-  TARGET_SHUTANIMATION := $(PRODUCT_SHUTANIMATION)
+    PRODUCT_COPY_FILES += \
+        $(PRODUCT_SHUTANIMATION):$(TARGET_COPY_OUT_PRODUCT)/media/shutdownanimation.zip
 endif
