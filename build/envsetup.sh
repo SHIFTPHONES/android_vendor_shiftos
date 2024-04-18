@@ -142,3 +142,7 @@ export BUILD_GMS
 export SHIFT_BUILD_WITH_GMS
 export WITH_GMS
 export WITH_GMS_MAINLINE
+
+source "$(gettop)"/vendor/shiftos/tools/do_push.sh
+
+alias mp='dopush m'
