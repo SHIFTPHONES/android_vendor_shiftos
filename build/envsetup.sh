@@ -123,6 +123,18 @@ function merge_upstream()
     "$T/vendor/shiftos/tools/merge_upstream.py" "$@"
 }
 
+function merge_builds()
+{
+    T=$(gettop)
+    "$T/prebuilts/build-tools/path/linux-x86/python3" "$T/vendor/qcom/opensource/core-utils/build/build_image_standalone.py" \
+        --skip_qiifa \
+        --image super \
+        --qssi_build_path "$T/../system" \
+        --target_build_path "$T/../vendor" \
+        --merged_build_path "$T/../vendor" \
+        --target_lunch "${1}"
+}
+
 function repopick()
 {
     T=$(gettop)
