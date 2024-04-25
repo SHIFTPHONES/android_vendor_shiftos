@@ -27,9 +27,7 @@ endif
 
 ####################################################################################
 
-SHIFT_BUILD_DATE := $(shell date +%Y%m%d)
-SHIFT_BUILD_TIMESTAMP := $(shell date +%s)
-SHIFT_SOFTWARE_VERSION := $(SHIFT_SOS_VERSION_NAME).$(SHIFT_BUILD_DATE)
+SHIFT_VERSION_DISPLAY := $(SHIFT_SOS_VERSION_NUMBER).$(SHIFT_SOS_VERSION_EXTRA)
 
 ####################################################################################
 
