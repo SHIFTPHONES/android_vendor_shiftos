@@ -20,6 +20,9 @@ ifeq ($(SHIFT_BUILD_IS_BETA),true)
     SHIFT_BUILD_TYPE := beta
 endif
 
+# Disable 64-bit only build
+WITH_64_BIT_ONLY := false
+
 # If we do not build with GMS, we build ShiftOS-L
 ifneq ($(SHIFT_BUILD_WITH_GMS),true)
     SHIFT_BUILD_TYPE := $(SHIFT_BUILD_TYPE)-light
