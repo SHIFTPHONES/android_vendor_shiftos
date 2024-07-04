@@ -13,3 +13,6 @@ PRODUCT_PACKAGES += \
 -include vendor/shiftos/prebuilt/apps/F-Droid/F-Droid.mk
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
+# OTA
+PRODUCT_PACKAGES += \
+    SHIFT-OTA
