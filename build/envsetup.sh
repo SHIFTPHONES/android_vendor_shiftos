@@ -132,7 +132,8 @@ function merge_builds()
         --qssi_build_path "$T/../system" \
         --target_build_path "$T/../vendor" \
         --merged_build_path "$T/../vendor" \
-        --target_lunch "${1}"
+        --target_lunch "${1}" \
+        --output_ota
 }
 
 function repopick()
