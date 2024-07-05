@@ -75,6 +75,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SHIFT-OTA
 
+# Support
+PRODUCT_PACKAGES += \
+    SHIFT-Support
+
 # ThemePicker
 PRODUCT_PACKAGES += \
     ThemePicker
