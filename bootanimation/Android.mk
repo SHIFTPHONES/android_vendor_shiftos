@@ -22,21 +22,7 @@ $(TARGET_GENERATED_BOOTANIMATION): $(SOONG_ZIP)
 	@rm -rf $(dir $@)
 	@mkdir -p $(INTERMEDIATES)
 	$(hide) tar xfp vendor/shiftos/bootanimation/bootanimation.tar -C $(INTERMEDIATES)
-	$(hide) if [ $(TARGET_SCREEN_HEIGHT) -lt $(TARGET_SCREEN_WIDTH) ]; then \
-	    IMAGEWIDTH=$(TARGET_SCREEN_HEIGHT); \
-	else \
-	    IMAGEWIDTH=$(TARGET_SCREEN_WIDTH); \
-	fi; \
-	IMAGESCALEWIDTH=$$IMAGEWIDTH; \
-	IMAGESCALEHEIGHT=$$(expr $$IMAGESCALEWIDTH / 3); \
-	if [ "$(TARGET_BOOTANIMATION_HALF_RES)" = "true" ]; then \
-	    IMAGEWIDTH="$$(expr "$$IMAGEWIDTH" / 2)"; \
-	fi; \
-	IMAGEHEIGHT=$$(expr $$IMAGEWIDTH / 3); \
-	RESOLUTION="$$IMAGEWIDTH"x"$$IMAGEHEIGHT"; \
-	prebuilts/tools-lineage/${HOST_OS}-x86/bin/mogrify -resize $$RESOLUTION -colors 256 $(INTERMEDIATES)/*/*.png; \
-	echo "$$IMAGESCALEWIDTH $$IMAGESCALEHEIGHT 60" > $(INTERMEDIATES)/desc.txt; \
-	cat vendor/shiftos/bootanimation/desc.txt >> $(INTERMEDIATES)/desc.txt
+	$(hide) cat vendor/shiftos/bootanimation/desc.txt >> $(INTERMEDIATES)/desc.txt
 	$(hide) $(SOONG_ZIP) -L 0 -o $@ -C $(INTERMEDIATES) -D $(INTERMEDIATES)
 
 ifeq ($(TARGET_BOOTANIMATION),)
