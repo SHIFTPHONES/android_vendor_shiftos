@@ -20,3 +20,6 @@ PRODUCT_PACKAGES += \
 # ThemePicker
 PRODUCT_PACKAGES += \
     ThemePicker
+
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/shiftos/overlay
