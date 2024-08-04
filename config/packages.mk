@@ -16,3 +16,7 @@ PRODUCT_PACKAGES += additional_repos.xml-fdroid
 # OTA
 PRODUCT_PACKAGES += \
     SHIFT-OTA
+
+# ThemePicker
+PRODUCT_PACKAGES += \
+    ThemePicker
