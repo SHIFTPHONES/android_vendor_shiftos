@@ -27,3 +27,6 @@ WITH_64_BIT_ONLY := false
 ifneq ($(SHIFT_BUILD_WITH_GMS),true)
     SHIFT_BUILD_TYPE := $(SHIFT_BUILD_TYPE)-light
 endif
+
+# Force build date
+SHIFT_BUILD_DATE := 20240801
