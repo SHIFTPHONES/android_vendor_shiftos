@@ -58,9 +58,8 @@ ifeq ($(SHIFT_SOFTWARE_VERSION_BASE),)
   SHIFT_SOFTWARE_VERSION_BASE := $(VENDOR_TARGET).$(SHIFT_SOS_VERSION_NAME)
 endif
 
-SHIFT_BUILD_DATE := $(shell date +%Y%m%d)
 SHIFT_BUILD_TIMESTAMP := $(shell date +%s)
-SHIFT_SOFTWARE_VERSION := $(SHIFT_SOFTWARE_VERSION_BASE).$(SHIFT_BUILD_DATE)
+SHIFT_SOFTWARE_VERSION := $(SHIFT_SOFTWARE_VERSION_BASE).$(BUILD_NUMBER_FROM_FILE)
 
 ####################################################################################
 
