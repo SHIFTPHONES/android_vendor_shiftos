@@ -7,7 +7,7 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
 
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.shift.version.base=$(SHIFT_SOFTWARE_VERSION_BASE) \
-    ro.shift.version.date=$(SHIFT_BUILD_DATE) \
+    ro.shift.version.date=$(BUILD_NUMBER) \
     ro.shift.version.display=$(SHIFT_SOFTWARE_VERSION) \
     ro.shift.version.timestamp=$(SHIFT_BUILD_TIMESTAMP) \
 
