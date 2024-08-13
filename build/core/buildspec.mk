@@ -1,6 +1,9 @@
 # configure build specifications here
 
-BUILD_NUMBER := $(shell date +%Y%m%d)
+# Force build date and number to a fixed value
+#BUILD_NUMBER := $(shell date +%Y%m%d)
+BUILD_NUMBER := 20240809
+SHIFT_BUILD_DATE := 20240809
 
 # Specify build user and host
 BUILD_USERNAME := shiftos
