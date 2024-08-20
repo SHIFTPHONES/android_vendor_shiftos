@@ -13,6 +13,10 @@ PRODUCT_PACKAGES += \
 -include vendor/shiftos/prebuilt/apps/F-Droid/F-Droid.mk
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
+# Launcher
+PRODUCT_PACKAGES += \
+    SHIFT-Home
+
 # Music (Eleven)
 PRODUCT_PACKAGES += \
     Eleven
