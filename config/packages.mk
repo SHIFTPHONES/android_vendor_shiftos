@@ -12,12 +12,14 @@ PRODUCT_PACKAGES += \
 # Customizations - Fonts
 $(call inherit-product-if-exists, external/google-fonts/jetbrains-mono/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/open-sans/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontJetBrainsMonoOverlay \
     FontLatoOverlay \
+    FontOpenSansOverlay \
     FontRubikOverlay
 
 # Customizations - Icons
