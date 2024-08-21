@@ -10,11 +10,13 @@ PRODUCT_PACKAGES += \
     shiftos_charger_animation_vendor \
 
 # Customizations - Fonts
+$(call inherit-product-if-exists, external/google-fonts/jetbrains-mono/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
+    FontJetBrainsMonoOverlay \
     FontLatoOverlay \
     FontRubikOverlay
 
