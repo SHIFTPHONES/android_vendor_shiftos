@@ -60,9 +60,12 @@ PRODUCT_PACKAGES += \
 -include vendor/shiftos/prebuilt/apps/F-Droid/F-Droid.mk
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
-# Launcher
+# Launcher (SHIFT-Home)
 PRODUCT_PACKAGES += \
-    SHIFT-Home
+    SHIFT-HomeQuickStep
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SHIFT-HomeQuickStep
 
 # Music (Eleven)
 PRODUCT_PACKAGES += \
