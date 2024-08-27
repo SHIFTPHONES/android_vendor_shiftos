@@ -75,6 +75,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SHIFT-OTA
 
+# Recorder
+PRODUCT_PACKAGES += \
+    Recorder
+
 # Support
 PRODUCT_PACKAGES += \
     SHIFT-Support
