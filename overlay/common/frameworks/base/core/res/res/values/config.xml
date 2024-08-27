@@ -26,4 +26,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
+
+    <!-- Provides default value for double line clock in lock screen setting:
+         0 - Don't show double line clock (default)
+         1 - Show double line clock in lock screen -->
+    <integer name="config_doublelineClockDefault">0</integer>
 </resources>
