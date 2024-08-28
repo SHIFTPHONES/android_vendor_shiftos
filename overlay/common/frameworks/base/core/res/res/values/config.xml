@@ -31,4 +31,7 @@
          0 - Don't show double line clock (default)
          1 - Show double line clock in lock screen -->
     <integer name="config_doublelineClockDefault">0</integer>
+
+    <!-- Name of the font family to use in the default lockscreen clock -->
+    <string name="config_clockFontFamily" translatable="false">open-sans</string>
 </resources>
