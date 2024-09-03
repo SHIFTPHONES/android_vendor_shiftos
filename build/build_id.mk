@@ -18,4 +18,8 @@
 # (like "CRB01").  It must be a single word, and is
 # capitalized by convention.
 
-BUILD_ID=SOS.6.X
+ifneq ($(TARGET_BUILD_VARIANT),user)
+    BUILD_ID=SOS.6.X
+else
+    BUILD_ID=SOS.6.0
+endif
