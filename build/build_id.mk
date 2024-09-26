@@ -19,7 +19,7 @@
 # capitalized by convention.
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
-    BUILD_ID=SOS.6.X
+    BUILD_ID=SOS.6.X.$(shell date +%Y%m%d)
 else
-    BUILD_ID=SOS.6.0
+    BUILD_ID=SOS.6.0.$(shell date +%Y%m%d)
 endif
