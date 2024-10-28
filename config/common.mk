@@ -3,6 +3,9 @@ PRODUCT_BRAND ?= SHIFT
 # If not set, default to true
 SHIFT_BUILD_WITH_GMS ?= true
 
+# soong config variable, whether we build gms or not
+$(call soong_config_set,eco.shift,build_with_gms,$(SHIFT_BUILD_WITH_GMS))
+
 # Boot and Shutdown animations
 include vendor/shiftos/config/bootanimation.mk
 
