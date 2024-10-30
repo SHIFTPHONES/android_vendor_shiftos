@@ -18,6 +18,8 @@ Additional ShiftOS functions:
 
 - repopick: Utility to fetch changes from Gerrit.
 
+- check_apex_signatures: Check the signatures of APEX files and ensure they are valid.
+
 EOF
 }
 
@@ -140,6 +142,12 @@ function repopick()
 {
     T=$(gettop)
     "$T/vendor/shiftos/tools/repopick.py" "$@"
+}
+
+function check_apex_signatures()
+{
+    T=$(gettop)
+    "$T/vendor/shiftos/tools/check_apex_signatures.sh" "$@"
 }
 
 # Check if PARTNER_GMS exists
