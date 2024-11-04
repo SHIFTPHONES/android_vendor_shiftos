@@ -77,7 +77,7 @@ PRODUCT_PACKAGES += \
 
 # Recorder
 PRODUCT_PACKAGES += \
-    Recorder
+    QtiSoundRecorder
 
 # Support
 PRODUCT_PACKAGES += \
