@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Camera
+PRODUCT_PACKAGES += \
+    SHIFT-Camera \
+
 # Charger
 PRODUCT_PACKAGES += \
     shiftos_charger_animation \
