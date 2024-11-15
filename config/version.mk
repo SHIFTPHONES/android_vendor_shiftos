@@ -9,7 +9,7 @@ endif
 ####################################################################################
 
 SHIFT_SOS_VERSION_MAJOR := 5
-SHIFT_SOS_VERSION_MINOR := 1
+SHIFT_SOS_VERSION_MINOR := 0
 SHIFT_SOS_VERSION_EXTRA :=
 
 ifeq ($(SHIFT_BUILD_WITH_GMS),true)
