@@ -20,9 +20,6 @@ include vendor/shiftos/config/bootanimation.mk
 # Packages
 include vendor/shiftos/config/packages.mk
 
-# Prebuilt apps
-include vendor/shift/apps/esim.mk
-
 # ShiftOS permissions
 include vendor/shiftos/config/permissions.mk
 
