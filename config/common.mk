@@ -10,9 +10,10 @@ PRODUCT_BRAND ?= SHIFT
 SHIFT_BUILD_WITH_GMS ?= true
 
 # Throw error if packages which do not exist are requested
-ifeq ($(TARGET_ENABLE_EPPE),true)
+ifneq ($(TARGET_DISABLE_EPPE),true)
 $(call enforce-product-packages-exist-internal,$(wildcard device/*/$(TARGET_PRODUCT)/$(TARGET_PRODUCT).mk),)
 $(call enforce-product-packages-exist-internal,$(wildcard device/*/$(TARGET_PRODUCT)/shiftos/$(TARGET_PRODUCT).mk),)
+$(call enforce-product-packages-exist-internal,$(wildcard vendor/shiftos/config/packages.mk),)
 endif
 
 # Boot and Shutdown animations
