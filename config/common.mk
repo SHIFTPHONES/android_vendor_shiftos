@@ -9,11 +9,6 @@ PRODUCT_BRAND ?= SHIFT
 # If not set, default to true
 SHIFT_BUILD_WITH_GMS ?= true
 
-# Throw error if packages which do not exist are requested
-ifeq ($(TARGET_ENABLE_EPPE),true)
-$(call enforce-product-packages-exist-internal,$(wildcard device/*/$(TARGET_PRODUCT)/$(TARGET_PRODUCT).mk),)
-endif
-
 # Boot and Shutdown animations
 include vendor/shiftos/config/bootanimation.mk
 
