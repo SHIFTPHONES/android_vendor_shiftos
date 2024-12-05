@@ -22,7 +22,7 @@ include vendor/shiftos/config/permissions.mk
 include vendor/shiftos/config/version.mk
 
 # Private bits if existing
--include vendor/shiftos/private/common.mk
+-include vendor/shiftos/private/keys/keys.mk
 
 # Include ADB keys for debuggable builds
 -include vendor/shiftos/security/adb/adb_keys.mk
