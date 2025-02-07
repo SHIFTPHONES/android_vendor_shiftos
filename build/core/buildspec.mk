@@ -27,3 +27,8 @@ WITH_64_BIT_ONLY := false
 ifneq ($(SHIFT_BUILD_WITH_GMS),true)
     SHIFT_BUILD_TYPE := $(SHIFT_BUILD_TYPE)-light
 endif
+
+# Set PLATFORM_BASE_OS for ShiftOS-G
+ifeq ($(SHIFT_BUILD_WITH_GMS),true)
+    PLATFORM_BASE_OS := SHIFT/axolotl/axolotl:13/TQ3A.230901.001/20240820:user/release-keys
+endif
