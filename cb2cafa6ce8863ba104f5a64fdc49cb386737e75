@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a771d6b_095654ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-12T07:35:32Z",
+      "side": 1,
+      "message": "We forgot to test microG last time when testing ShiftOS-L.\n\nAdding the repo should make it easier for testing as well as for users, who actually want to use it.",
+      "revId": "cb2cafa6ce8863ba104f5a64fdc49cb386737e75",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
