@@ -112,4 +112,7 @@ else
 
   # ShiftOS-L specific packages
 
+  # CellBroadcast - platform version
+  PRODUCT_PACKAGES += CellBroadcastAppPlatform
+
 endif
