@@ -93,3 +93,13 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/shiftos/overlay
+
+ifeq ($(WITH_GMS),true)
+
+  # ShiftOS-G specific packages
+
+else
+
+  # ShiftOS-L specific packages
+
+endif
