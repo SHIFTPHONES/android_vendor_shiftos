@@ -84,6 +84,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Recorder
 
+# Settings
+PRODUCT_PACKAGES += \
+    SHIFT-PartnerCustomization \
+    SHIFT-Parts \
+    SHIFT-SettingsProvider
+
 # Support
 PRODUCT_PACKAGES += \
     SHIFT-Support
