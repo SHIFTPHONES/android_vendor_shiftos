@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
 # Launcher (SHIFT-Home)
 PRODUCT_PACKAGES += \
+    SHIFT-HomeOverlay \
     SHIFT-HomeQuickStep
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
