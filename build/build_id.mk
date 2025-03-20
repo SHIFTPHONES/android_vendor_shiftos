@@ -18,4 +18,4 @@
 # (like "CRB01").  It must be a single word, and is
 # capitalized by convention.
 
-BUILD_ID=SOS.6.0.$(shell date +%Y%m%d)
+BUILD_ID=SOS.7.0.$(shell date +%Y%m%d)
