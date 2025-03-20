@@ -42,6 +42,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.shift.sos.version.number="$(SHIFT_SOS_VERSION_NUMBER)" \
 
 PRODUCT_SYSTEM_PROPERTIES += \
+    ro.shift.aosp.build_id="$(AOSP_BUILD_ID)" \
     ro.shift.version.display="$(SHIFT_VERSION_DISPLAY)" \
 
 # ShiftOS release type
