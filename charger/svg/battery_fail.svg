@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-2413.78,-3071.29)">
+        <g id="Part21_Failed" transform="matrix(0.555556,0,0,0.25,2413.78,3071.29)">
+            <rect x="0" y="0" width="1080" height="2400" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="1080" height="2400"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="Hintergrund" transform="matrix(0.892089,0,0,2.06418,504.512,-982.19)">
+                    <rect x="-565.557" y="475.81" width="1210.64" height="1162.69"/>
+                </g>
+                <g id="Logo_Animation">
+                </g>
+                <g transform="matrix(1.85,0,0,4.11112,-421.95,-3635.66)">
+                    <circle cx="519.964" cy="1176.23" r="164.383" style="fill:none;stroke:rgb(235,235,235);stroke-opacity:0.1;stroke-width:13.62px;"/>
+                </g>
+                <g transform="matrix(2.26426,0,0,5.03169,-4593.77,-15469.2)">
+                    <path d="M2258.21,3322.52C2258.21,3325.24 2258.87,3326.28 2261.21,3326.28C2263.56,3326.28 2264.12,3325.24 2264.12,3322.62C2264.12,3317.74 2264.96,3316.05 2269.47,3313.51C2279.13,3308.17 2282.79,3304.41 2282.79,3295.5C2282.79,3284.99 2277.82,3281.05 2265.43,3281.05C2260.18,3281.05 2255.77,3281.71 2253.61,3282.93C2252.39,3283.58 2251.83,3284.52 2251.83,3285.65C2251.83,3287.15 2252.86,3287.9 2254.55,3287.71C2257.36,3287.24 2261.02,3286.87 2264.49,3286.87C2273.5,3286.87 2276.03,3289.4 2276.03,3296.16C2276.03,3302.82 2273.69,3304.88 2264.96,3309.76C2258.68,3313.23 2258.21,3316.33 2258.21,3322.52ZM2257.87,3340.42C2257.87,3343.85 2258.83,3344.65 2261.94,3344.65C2264.81,3344.65 2265.77,3343.85 2265.77,3340.1C2265.77,3337.07 2265.05,3336.03 2261.94,3336.03C2258.83,3336.03 2257.87,3337.07 2257.87,3340.42Z" style="fill:white;fill-opacity:0.4;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

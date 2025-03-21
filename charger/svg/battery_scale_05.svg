@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,0,-4493.69)">
+        <g id="Part05_25-" serif:id="Part05_25%" transform="matrix(0.555556,0,0,0.25,0,4493.69)">
+            <rect x="0" y="0" width="1080" height="2400" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="1080" height="2400"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="Hintergrund" transform="matrix(0.892089,0,0,2.06418,504.512,-982.19)">
+                    <rect x="-565.557" y="475.81" width="1210.64" height="1162.69"/>
+                </g>
+                <g id="Logo_Animation" transform="matrix(1.8,0,0,4,-432.291,-3438.91)">
+                    <g transform="matrix(1.02778,0,0,1.02778,5.7448,-49.1887)">
+                        <circle cx="519.964" cy="1176.23" r="164.383" style="fill:none;stroke:rgb(235,235,235);stroke-opacity:0.1;stroke-width:13.62px;"/>
+                    </g>
+                    <g transform="matrix(1.02778,0,0,1.02778,5.7448,-49.1887)">
+                        <path d="M519.964,1011.85C610.689,1011.85 684.347,1085.51 684.347,1176.23" style="fill:none;stroke:rgb(0,100,127);stroke-width:13.62px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.866453,0,0,1.92545,530.936,1633.89)">
+                    <path d="M-4.312,69.565C-4.563,71.346 -3.289,72.739 -1.479,72.851C-0.139,72.933 0.601,72.208 1.234,71.199C4.04,66.72 6.852,62.246 9.664,57.772C13.678,51.386 17.69,45 21.708,38.617C26.328,31.28 30.956,23.948 35.579,16.612C36.126,15.744 36.689,14.885 37.204,13.998C38.134,12.397 37.607,10.435 36.113,9.754C35.569,9.505 35.006,9.554 34.446,9.553C30.897,9.545 27.587,9.541 24.037,9.541C22.251,9.541 22.13,8.693 22.156,7.603C22.232,4.423 23.038,-29.992 23.056,-32.658C23.066,-34.099 21.753,-35.166 20.32,-35.215C18.967,-35.261 18.134,-34.581 17.473,-33.48C14.593,-28.686 11.68,-23.913 8.787,-19.127C5.734,-14.078 2.695,-9.02 -0.36,-3.971C-4.078,2.174 -7.808,8.312 -11.53,14.456C-13.125,17.089 -14.714,19.726 -16.299,22.365C-16.985,23.508 -17.038,25.521 -15.314,26.535C-14.776,26.851 -14.234,26.826 -13.678,26.826C-9.202,26.834 -5.015,26.839 -0.54,26.839C0.966,26.839 1.372,27.609 1.253,28.469C1.253,28.469 -3.835,66.177 -4.312,69.565Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

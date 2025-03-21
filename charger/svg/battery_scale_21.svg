@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100%"
+   height="100%"
+   viewBox="0 0 600 600"
+   version="1.1"
+   xml:space="preserve"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+   id="svg7"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:serif="http://www.serif.com/"><defs
+   id="defs7" />
+    <g
+   transform="matrix(1,0,0,1,-2413.78,-2354.11)"
+   id="g7">
+        <g
+   id="Part20_100-"
+   serif:id="Part20_100%"
+   transform="matrix(0.555556,0,0,0.25,2413.78,2354.11)">
+            <rect
+   x="0"
+   y="0"
+   width="1080"
+   height="2400"
+   style="fill:none;"
+   id="rect1" />
+            <clipPath
+   id="_clip1">
+                <rect
+   x="0"
+   y="0"
+   width="1080"
+   height="2400"
+   id="rect2" />
+            </clipPath>
+            <g
+   clip-path="url(#_clip1)"
+   id="g6">
+                <g
+   id="Hintergrund"
+   transform="matrix(0.892089,0,0,2.06418,504.512,-982.19)">
+                    <rect
+   x="-565.557"
+   y="475.81"
+   width="1210.64"
+   height="1162.69"
+   id="rect3" />
+                </g>
+                <g
+   id="Logo_Animation"
+   transform="matrix(1.8,0,0,4,-432.291,-3438.91)">
+                    <g
+   transform="matrix(1.02778,0,0,1.02778,5.7448,-49.1887)"
+   id="g3">
+                        <circle
+   cx="519.964"
+   cy="1176.23"
+   r="164.383"
+   style="fill:none;stroke:rgb(235,235,235);stroke-opacity:0.1;stroke-width:13.62px;"
+   id="circle3" />
+                    </g>
+                    <g
+   transform="matrix(1.02778,0,0,1.02778,5.7448,-49.1887)"
+   id="g4">
+                        <circle
+   cx="519.964"
+   cy="1176.23"
+   r="164.383"
+   style="fill:none;stroke:rgb(0,100,127);stroke-width:13.62px;"
+   id="circle4" />
+                    </g>
+                </g>
+                
+            </g>
+        </g>
+    </g>
+</svg>
