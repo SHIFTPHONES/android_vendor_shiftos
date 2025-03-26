@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += SHIFT-SetupWizard
 PRODUCT_PACKAGES += \
     SHIFT-Support
 
+# System Services
+PRODUCT_PACKAGES += \
+    SHIFT-SystemServices
+
 # ThemePicker
 PRODUCT_PACKAGES += \
     ThemePicker
