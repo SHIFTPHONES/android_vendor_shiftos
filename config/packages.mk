@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Actions
+PRODUCT_PACKAGES += \
+    SHIFT-Actions
+
 # Camera
 PRODUCT_PACKAGES += \
     SHIFT-Camera \
