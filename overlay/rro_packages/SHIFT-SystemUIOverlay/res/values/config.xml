@@ -20,4 +20,9 @@
         <item>bottom_start:flashlight</item>
         <item>bottom_end:camera</item>
     </string-array>
+
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        airplane,internet,bt,location,flashlight,rotation,qr_code_scanner,hotspot,nfc,dnd,battery,custom(com.google.android.gms/.nearby.sharing.SharingTileService),night,screenrecord,mictoggle,cameratoggle,dark,reduce_brightness,cast,ala>
+    </string>
 </resources>
