@@ -82,7 +82,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SHIFT-FrameworksOverlay
+    SHIFT-FrameworksOverlay \
+    SHIFT-SystemUIOverlay
 
 # Recorder
 PRODUCT_PACKAGES += \
