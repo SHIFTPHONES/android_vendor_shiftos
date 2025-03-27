@@ -80,6 +80,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SHIFT-OTA
 
+# Overlays
+PRODUCT_PACKAGES += \
+    SHIFT-FrameworksOverlay
+
 # Recorder
 PRODUCT_PACKAGES += \
     Recorder
