@@ -61,7 +61,6 @@ PRODUCT_PACKAGES += \
     IconShapeVesselOverlay
 
 # F-Droid
--include vendor/shiftos/prebuilt/apps/F-Droid/F-Droid.mk
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
 # Launcher (SHIFT-Home)
@@ -120,5 +119,8 @@ ifeq ($(WITH_GMS),true)
 else
 
   # ShiftOS-L specific packages
+
+  # F-Droid
+  PRODUCT_PACKAGES += F-Droid
 
 endif
