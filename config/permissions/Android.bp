@@ -19,6 +19,7 @@
 
 prebuilt_etc {
     name: "eco.shiftos.android.xml",
+    product_specific: true,
     sub_dir: "permissions",
     src: "eco.shiftos.android.xml",
     filename_from_src: true,
