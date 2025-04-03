@@ -88,6 +88,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Recorder
 
+# SDK
+PRODUCT_PACKAGES += \
+    eco.shift.sdk
+
 # Settings
 PRODUCT_PACKAGES += \
     SHIFT-PartnerCustomization \
