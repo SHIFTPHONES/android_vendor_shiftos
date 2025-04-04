@@ -9,3 +9,4 @@
 +lineageos.trust.*
 +lineageos.util.*
 +lineageos.util.palette.*
++shiftos.providers.*
