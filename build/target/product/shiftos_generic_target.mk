@@ -21,6 +21,10 @@ PRODUCT_SDK_ADDON_COPY_FILES += \
 # Rules for public APIs
 PRODUCT_SDK_ADDON_STUB_DEFS += vendor/shiftos/build/target/product/sdk_addon_stub_defs.txt
 
+# Platform
+PRODUCT_PACKAGES += org.lineageos.platform
+PRODUCT_SDK_ADDON_COPY_MODULES += org.lineageos.platform:libs/org.lineageos.platform.jar
+
 # SDK
 PRODUCT_PACKAGES += eco.shift.sdk
 PRODUCT_SDK_ADDON_COPY_MODULES += eco.shift.sdk:libs/eco.shift.sdk.jar

@@ -1,1 +1,11 @@
-+eco.shift.sdk.input*
++eco.shift.sdk.input.*
++lineageos.app.*
++lineageos.content.*
++lineageos.hardware.*
++lineageos.health.*
++lineageos.platform.*
++lineageos.profiles.*
++lineageos.providers.*
++lineageos.trust.*
++lineageos.util.*
++lineageos.util.palette.*

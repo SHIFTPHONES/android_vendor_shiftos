@@ -30,6 +30,9 @@
                 <library name="eco.shift.sdk">
                     <description>SDK for interacting with ShiftOS</description>
                 </library>
+                <library name="org.lineageos.platform">
+                    <description>SDK for interacting with LineageOS</description>
+                </library>
             </libraries>
         </type-details>
         <revision>
