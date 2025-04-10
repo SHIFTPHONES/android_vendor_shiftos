@@ -167,3 +167,18 @@ export WITH_GMS_MAINLINE
 source "$(gettop)"/vendor/shiftos/tools/do_push.sh
 
 alias mp='dopush m'
+
+# Workaround: some values are not getting picked up by soong for some reason
+# unless they are exported as real env variables.
+if [ -f "buildspec.mk" ]; then
+    BUILD_NUMBER=$(grep "BUILD_NUMBER := " "buildspec.mk" | sed 's/BUILD_NUMBER := //')
+    if [ "$BUILD_NUMBER" == "\$(shell date +%Y%m%d)" ]; then
+        BUILD_NUMBER="$(date +%Y%m%d)"
+    fi
+    BUILD_USERNAME=$(grep "BUILD_USERNAME := " "buildspec.mk" | sed 's/BUILD_USERNAME := //')
+    BUILD_HOSTNAME=$(grep "BUILD_HOSTNAME := " "buildspec.mk" | sed 's/BUILD_HOSTNAME := //')
+
+    export BUILD_NUMBER="${BUILD_NUMBER}"
+    export BUILD_USERNAME="${BUILD_USERNAME}"
+    export BUILD_HOSTNAME="${BUILD_HOSTNAME}"
+fi
