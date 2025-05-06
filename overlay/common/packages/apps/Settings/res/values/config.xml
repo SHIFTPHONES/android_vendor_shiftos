@@ -21,4 +21,9 @@
     <string name="config_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
     <!-- Fully-qualified class name for the styles & wallpaper picker activity. -->
     <string name="config_styles_and_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
+
+     <!-- List containing the component names of pre-installed interaction control services. -->
+     <string-array name="config_preinstalled_interaction_control_services" translatable="false">
+          <item>eco.shift.apps.actions/eco.shift.apps.actions.accessibility.AccessibilityService</item>
+     </string-array>
 </resources>
