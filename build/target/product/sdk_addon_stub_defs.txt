@@ -1,3 +1,4 @@
++eco.shift.sdk.actions.*
 +eco.shift.sdk.input.*
 +lineageos.app.*
 +lineageos.content.*
