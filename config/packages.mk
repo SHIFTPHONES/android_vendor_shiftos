@@ -60,6 +60,9 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
+# Droid-ify
+PRODUCT_PACKAGES += Droid-ify
+
 # F-Droid
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
