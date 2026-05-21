@@ -5,8 +5,8 @@
 #
 
 # Camera
-PRODUCT_PACKAGES += \
-    SHIFT-Camera \
+#PRODUCT_PACKAGES += \
+#    SHIFT-Camera \
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -20,33 +20,25 @@ PRODUCT_PACKAGES += Droid-ify
 PRODUCT_PACKAGES += additional_repos.xml-fdroid
 
 # Launcher (SHIFT-Home)
-PRODUCT_PACKAGES += \
-    SHIFT-HomeOverlay \
-    SHIFT-HomeQuickStep
+#PRODUCT_PACKAGES += \
+#    SHIFT-HomeOverlay \
+#    SHIFT-HomeQuickStep
 
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SHIFT-HomeQuickStep
-
-# Music
-PRODUCT_PACKAGES += \
-    Twelve
+#PRODUCT_DEXPREOPT_SPEED_APPS += \
+#    SHIFT-HomeQuickStep
 
 # OTA
-PRODUCT_PACKAGES += \
-    SHIFT-OTA
+#PRODUCT_PACKAGES += \
+#    SHIFT-OTA
 
 # Overlays
-PRODUCT_PACKAGES += \
-    SHIFT-FrameworksOverlay \
-    SHIFT-SystemUIOverlay
-
-# Recorder
-PRODUCT_PACKAGES += \
-    Recorder
+#PRODUCT_PACKAGES += \
+#    SHIFT-FrameworksOverlay \
+#    SHIFT-SystemUIOverlay
 
 # SDK
-PRODUCT_PACKAGES += \
-    eco.shift.sdk
+#PRODUCT_PACKAGES += \
+#    eco.shift.sdk
 
 # Settings
 PRODUCT_PACKAGES += \
@@ -55,19 +47,15 @@ PRODUCT_PACKAGES += \
     SHIFT-SettingsProvider
 
 # SetupWizard
-PRODUCT_PACKAGES += SHIFT-SetupWizard
+#PRODUCT_PACKAGES += SHIFT-SetupWizard
 
 # Support
 PRODUCT_PACKAGES += \
     SHIFT-Support
 
 # System Services
-PRODUCT_PACKAGES += \
-    SHIFT-SystemServices
-
-# ThemePicker
-PRODUCT_PACKAGES += \
-    ThemePicker
+#PRODUCT_PACKAGES += \
+#    SHIFT-SystemServices
 
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/shiftos/overlay
