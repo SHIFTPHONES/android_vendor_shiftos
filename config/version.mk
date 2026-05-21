@@ -1,12 +1,12 @@
 #
-# Copyright (C) 2024 SHIFT GmbH
+# Copyright (C) SHIFT GmbH
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 ####################################################################################
 
-SHIFT_SOS_VERSION_MAJOR := 7
+SHIFT_SOS_VERSION_MAJOR := 16
 SHIFT_SOS_VERSION_MINOR := 0
 SHIFT_SOS_VERSION_EXTRA :=
 

@@ -13,18 +13,18 @@
     xmlns:ns13="http://schemas.android.com/sdk/android/repo/sys-img2/03"
     xmlns:ns14="http://schemas.android.com/sdk/android/repo/sys-img2/02"
     xmlns:ns15="http://schemas.android.com/sdk/android/repo/sys-img2/01">
-    <localPackage path="add-ons;addon-shiftos-sdk-v7-35" obsolete="false">
+    <localPackage path="add-ons;addon-shiftos-sdk-v16-36" obsolete="false">
         <type-details xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:type="ns8:addonDetailsType">
-            <api-level>35</api-level>
+            <api-level>36</api-level>
             <base-extension>true</base-extension>
             <vendor>
                 <id>shift</id>
                 <display>SHIFT</display>
             </vendor>
             <tag>
-                <id>shiftos-sdk-v7-35</id>
-                <display>ShiftOS SDK v7</display>
+                <id>shiftos-sdk-v16-36</id>
+                <display>ShiftOS SDK v16</display>
             </tag>
             <libraries>
                 <library name="eco.shift.sdk">
@@ -38,6 +38,6 @@
         <revision>
             <major>1</major>
         </revision>
-        <display-name>ShiftOS SDK v7</display-name>
+        <display-name>ShiftOS SDK v16</display-name>
     </localPackage>
 </ns2:repository>
