@@ -27,9 +27,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SHIFT-HomeQuickStep
 
-# Music (Eleven)
+# Music
 PRODUCT_PACKAGES += \
-    Eleven
+    Twelve
 
 # OTA
 PRODUCT_PACKAGES += \
