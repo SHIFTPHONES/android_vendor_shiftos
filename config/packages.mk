@@ -17,7 +17,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += Droid-ify
 
 # F-Droid
-PRODUCT_PACKAGES += additional_repos.xml-fdroid
+PRODUCT_PACKAGES += \
+    additional_repos.json-fdroid \
+    additional_repos.xml-fdroid
 
 # Launcher (SHIFT-Home)
 PRODUCT_PACKAGES += \
