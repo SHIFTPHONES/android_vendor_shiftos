@@ -21,8 +21,5 @@ include vendor/shiftos/config/permissions.mk
 # ShiftOS versioning
 include vendor/shiftos/config/version.mk
 
-# Private bits if existing
--include vendor/shiftos/private/common.mk
-
 # Include ADB keys for debuggable builds
 -include vendor/shiftos/security/adb/adb_keys.mk
