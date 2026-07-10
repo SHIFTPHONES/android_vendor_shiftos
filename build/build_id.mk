@@ -18,5 +18,5 @@
 # (like "CRB01").  It must be a single word, and is
 # capitalized by convention.
 
-AOSP_BUILD_ID=AP4A.250205.002
-BUILD_ID=SOS.7.0.$(shell date +%Y%m%d)
+AOSP_BUILD_ID=BP1A.250505.005
+BUILD_ID=SOS.7.1.$(shell date +%Y%m%d)

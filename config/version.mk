@@ -7,7 +7,7 @@
 ####################################################################################
 
 SHIFT_SOS_VERSION_MAJOR := 7
-SHIFT_SOS_VERSION_MINOR := 0
+SHIFT_SOS_VERSION_MINOR := 1
 SHIFT_SOS_VERSION_EXTRA :=
 
 SHIFT_SOS_VERSION_NUMBER := $(SHIFT_SOS_VERSION_MAJOR).$(SHIFT_SOS_VERSION_MINOR)
