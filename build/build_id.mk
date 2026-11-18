@@ -19,4 +19,4 @@
 # capitalized by convention.
 
 AOSP_BUILD_ID=BP1A.250505.005
-BUILD_ID=SOS.7.1.$(shell date +%Y%m%d)
+BUILD_ID=SOS.7.2.$(shell date +%Y%m%d)
