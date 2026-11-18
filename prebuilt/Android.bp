@@ -2,6 +2,14 @@
 // ============================================================
 
 prebuilt_etc {
+    name: "additional_repos.json-fdroid",
+    product_specific: true,
+    filename: "additional_repos.json",
+    sub_dir: "fdroid",
+    src: "common/etc/fdroid/additional_repos.json",
+}
+
+prebuilt_etc {
     name: "additional_repos.xml-fdroid",
     product_specific: true,
     filename: "additional_repos.xml",
